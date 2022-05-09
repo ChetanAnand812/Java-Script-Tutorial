@@ -61,10 +61,10 @@ var Marks = {
 // Arithmetic Operators
 var a = 100;
 var b = 10;
-console.log("The value of a + b: " , a+b)
-console.log("The value of a - b: " , a-b)
-console.log("The value of a * b: " , a*b)
-console.log("The value of a / b: " , a/b)
+// console.log("The value of a + b: " , a+b)
+// console.log("The value of a - b: " , a-b)
+// console.log("The value of a * b: " , a*b)
+// console.log("The value of a / b: " , a/b)
 
 // Assignment Operators
 var c = b;
@@ -77,9 +77,25 @@ var c = b;
 // Comparison Operators
 var x = 54;
 var y = 56;
-console.log(x == y);
-console.log(x >= y);
-console.log(x <= y);
-console.log(x > y);
-console.log(x < y);
+// console.log(x == y);
+// console.log(x >= y);
+// console.log(x <= y);
+// console.log(x > y);
+// console.log(x < y);
+
+// Logical Operators
+
+// a. logical AND
+// console.log(true && true);    true
+// console.log(true && false);   false
+// console.log(false && true);   false
+// console.log(false && false);  false
+// b. logical OR
+// console.log(true || true);     true
+// console.log(true || false);    true
+// console.log(false || true);    true
+// console.log(false || false);   false
+// c. logical not
+// console.log(!false);
+// console.log(!true);
 
