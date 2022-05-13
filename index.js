@@ -99,3 +99,12 @@ var y = 56;
 // console.log(!false);
 // console.log(!true);
 
+
+/// input
+let namastebtn = document.querySelector('button');
+namastebtn.addEventListener('click', inputMsg);
+
+function inputMsg() {
+    let name = prompt('Enter name of students');
+    namastebtn.textContent = 'Roll No. 1:' + name;
+}

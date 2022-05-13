@@ -7,8 +7,8 @@ let elemClass = document.getElementsByClassName('container');
 // elemClass[0].classList.add("bg-primary");
 // elemClass[0].classList.add("text-scccess");
 
-// console.log(elemClass[0].innerHTML);
-// console.log(elemClass[0].innerText);
+console.log(elemClass[0].innerHTML);
+console.log(elemClass[0].innerText);
 
 // tn = document.getElementsByTagName('button');
 tn = document.getElementsByTagName('div');
